@@ -1,0 +1,232 @@
+{
+  "input_path": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\data_by_ecfp4_similarity.csv",
+  "output_dir": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV",
+  "n_folds": 10,
+  "random_seed": 42,
+  "similarity_threshold": 0.7,
+  "ecfp4_n_bits": 1024,
+  "ecfp4_radius": 2,
+  "outputs": {
+    "with_valid": {
+      "0": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_0.csv",
+      "1": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_1.csv",
+      "2": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_2.csv",
+      "3": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_3.csv",
+      "4": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_4.csv",
+      "5": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_5.csv",
+      "6": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_6.csv",
+      "7": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_7.csv",
+      "8": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_8.csv",
+      "9": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_9.csv"
+    },
+    "no_valid": {
+      "0": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid0.csv",
+      "1": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid1.csv",
+      "2": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid2.csv",
+      "3": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid3.csv",
+      "4": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid4.csv",
+      "5": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid5.csv",
+      "6": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid6.csv",
+      "7": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid7.csv",
+      "8": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid8.csv",
+      "9": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid9.csv"
+    }
+  },
+  "processor_stats": {
+    "training_cluster_cv_by_ecfp4_similarity": {
+      "input_rows": 10231,
+      "training_rows": 8557,
+      "n_folds": 10,
+      "random_seed": 42,
+      "fold_sizes": {
+        "0": 856,
+        "1": 856,
+        "2": 856,
+        "3": 856,
+        "4": 856,
+        "5": 856,
+        "6": 856,
+        "7": 855,
+        "8": 855,
+        "9": 855
+      },
+      "cluster_count": 5874,
+      "largest_cluster_size": 73,
+      "cluster_stats": {
+        "molecules": 8557,
+        "clusters": 5874,
+        "repeated_clusters": 1415,
+        "singleton_clusters": 4459,
+        "molecules_in_repeated_clusters": 4098,
+        "molecules_in_singleton_clusters": 4459,
+        "largest_cluster_size": 73,
+        "edge_count": 5424,
+        "failed_records": [],
+        "similarity_threshold": 0.7,
+        "n_bits": 1024,
+        "radius": 2
+      },
+      "similarity_threshold": 0.7,
+      "n_bits": 1024,
+      "radius": 2,
+      "include_cluster_col": false,
+      "output_dir": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV",
+      "with_valid_outputs": {
+        "0": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_0.csv",
+        "1": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_1.csv",
+        "2": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_2.csv",
+        "3": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_3.csv",
+        "4": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_4.csv",
+        "5": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_5.csv",
+        "6": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_6.csv",
+        "7": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_7.csv",
+        "8": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_8.csv",
+        "9": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_9.csv"
+      },
+      "no_valid_outputs": {
+        "0": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid0.csv",
+        "1": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid1.csv",
+        "2": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid2.csv",
+        "3": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid3.csv",
+        "4": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid4.csv",
+        "5": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid5.csv",
+        "6": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid6.csv",
+        "7": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid7.csv",
+        "8": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid8.csv",
+        "9": "E:\\z_data\\bioactivity-profile-distillation\\data\\raw_data\\merge_data\\Tox21_Toxcast\\contain_valid\\training_cluster_CV\\training_cluster_CV_no_valid9.csv"
+      },
+      "split_stats": {
+        "0": {
+          "test_fold": 0,
+          "valid_fold": 1,
+          "with_valid_group_counts": {
+            "training": 6845,
+            "test": 856,
+            "valid": 856
+          },
+          "no_valid_group_counts": {
+            "training": 7701,
+            "test": 856
+          }
+        },
+        "1": {
+          "test_fold": 1,
+          "valid_fold": 2,
+          "with_valid_group_counts": {
+            "training": 6845,
+            "valid": 856,
+            "test": 856
+          },
+          "no_valid_group_counts": {
+            "training": 7701,
+            "test": 856
+          }
+        },
+        "2": {
+          "test_fold": 2,
+          "valid_fold": 3,
+          "with_valid_group_counts": {
+            "training": 6845,
+            "valid": 856,
+            "test": 856
+          },
+          "no_valid_group_counts": {
+            "training": 7701,
+            "test": 856
+          }
+        },
+        "3": {
+          "test_fold": 3,
+          "valid_fold": 4,
+          "with_valid_group_counts": {
+            "training": 6845,
+            "valid": 856,
+            "test": 856
+          },
+          "no_valid_group_counts": {
+            "training": 7701,
+            "test": 856
+          }
+        },
+        "4": {
+          "test_fold": 4,
+          "valid_fold": 5,
+          "with_valid_group_counts": {
+            "training": 6845,
+            "test": 856,
+            "valid": 856
+          },
+          "no_valid_group_counts": {
+            "training": 7701,
+            "test": 856
+          }
+        },
+        "5": {
+          "test_fold": 5,
+          "valid_fold": 6,
+          "with_valid_group_counts": {
+            "training": 6845,
+            "valid": 856,
+            "test": 856
+          },
+          "no_valid_group_counts": {
+            "training": 7701,
+            "test": 856
+          }
+        },
+        "6": {
+          "test_fold": 6,
+          "valid_fold": 7,
+          "with_valid_group_counts": {
+            "training": 6846,
+            "test": 856,
+            "valid": 855
+          },
+          "no_valid_group_counts": {
+            "training": 7701,
+            "test": 856
+          }
+        },
+        "7": {
+          "test_fold": 7,
+          "valid_fold": 8,
+          "with_valid_group_counts": {
+            "training": 6847,
+            "test": 855,
+            "valid": 855
+          },
+          "no_valid_group_counts": {
+            "training": 7702,
+            "test": 855
+          }
+        },
+        "8": {
+          "test_fold": 8,
+          "valid_fold": 9,
+          "with_valid_group_counts": {
+            "training": 6847,
+            "test": 855,
+            "valid": 855
+          },
+          "no_valid_group_counts": {
+            "training": 7702,
+            "test": 855
+          }
+        },
+        "9": {
+          "test_fold": 9,
+          "valid_fold": 0,
+          "with_valid_group_counts": {
+            "training": 6846,
+            "valid": 856,
+            "test": 855
+          },
+          "no_valid_group_counts": {
+            "training": 7702,
+            "test": 855
+          }
+        }
+      }
+    }
+  }
+}

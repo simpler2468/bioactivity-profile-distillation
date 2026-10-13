@@ -1,0 +1,78 @@
+{
+  "solve_rdkit_failed_to_read": {
+    "num_replacements": 2,
+    "replacement_records": [
+      {
+        "ID": "NCGC00357062-01",
+        "original_smiles": "FC(F)(F)c1nc(c(C#N)c1Br)C1=CC=C(Cl)C=C1",
+        "replacement_smiles": "C1=CC(=CC=C1C2=C(C(=C(N2)C(F)(F)F)Br)C#N)Cl",
+        "source": "PubChem query by NCGC ID"
+      },
+      {
+        "ID": "NCGC00357026-01",
+        "original_smiles": "C1=CC=C(C=C1)c1nc2ccccc2n1",
+        "replacement_smiles": "C1=CC=C(C=C1)C2=NC3=CC=CC=C3N2",
+        "source": "PubChem query by NCGC ID"
+      }
+    ]
+  },
+  "build_tox21_base_df": {
+    "train_rows": 11764,
+    "test_rows": 647,
+    "official_test_rows_retained": 647,
+    "clean": {
+      "origin_rows": 12411,
+      "rdkit_failed": 5,
+      "mixture_removed": 0,
+      "inorganic": 110,
+      "kept_rows": 12296
+    },
+    "deduplicate": {
+      "origin_rows": 12296,
+      "final_rows": 8266,
+      "duplicate_rows_merged": 4030,
+      "label_conflicts": {
+        "NR-AhR": 55,
+        "NR-AR": 57,
+        "NR-AR-LBD": 22,
+        "NR-Aromatase": 33,
+        "NR-ER": 159,
+        "NR-ER-LBD": 61,
+        "NR-PPAR-gamma": 14,
+        "SR-ARE": 67,
+        "SR-ATAD5": 27,
+        "SR-HSE": 47,
+        "SR-MMP": 46,
+        "SR-p53": 25
+      },
+      "group_counts": {
+        "training": 7627,
+        "test": 639
+      }
+    },
+    "training_rows_after_removing_test_canonical_duplicates": 7627,
+    "final_rows": 8274,
+    "group_counts": {
+      "training": 7627,
+      "test": 647
+    },
+    "output_path": "E:\\z_data\\tox21_clean\\data\\raw_data\\Tox21\\data.csv",
+    "test_smiles_replacements": {
+      "num_replacements": 2,
+      "replacement_records": [
+        {
+          "ID": "NCGC00357062-01",
+          "original_smiles": "FC(F)(F)c1nc(c(C#N)c1Br)C1=CC=C(Cl)C=C1",
+          "replacement_smiles": "C1=CC(=CC=C1C2=C(C(=C(N2)C(F)(F)F)Br)C#N)Cl",
+          "source": "PubChem query by NCGC ID"
+        },
+        {
+          "ID": "NCGC00357026-01",
+          "original_smiles": "C1=CC=C(C=C1)c1nc2ccccc2n1",
+          "replacement_smiles": "C1=CC=C(C=C1)C2=NC3=CC=CC=C3N2",
+          "source": "PubChem query by NCGC ID"
+        }
+      ]
+    }
+  }
+}

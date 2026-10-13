@@ -1,0 +1,6 @@
+task_set,path,num_tox21_tasks,num_toxcast_tasks,num_tasks
+tox21_12,data\task_sets\Tox21_Toxcast\task_count_ablation_seed2026\tox21_12.txt,12,0,12
+tox21_12_plus_20,data\task_sets\Tox21_Toxcast\task_count_ablation_seed2026\tox21_12_plus_20.txt,12,20,32
+tox21_12_plus_40,data\task_sets\Tox21_Toxcast\task_count_ablation_seed2026\tox21_12_plus_40.txt,12,40,52
+tox21_12_plus_60,data\task_sets\Tox21_Toxcast\task_count_ablation_seed2026\tox21_12_plus_60.txt,12,60,72
+all_93,data\task_sets\Tox21_Toxcast\task_count_ablation_seed2026\all_93.txt,12,81,93
